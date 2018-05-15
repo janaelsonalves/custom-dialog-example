@@ -1,0 +1,21 @@
+<mat-toolbar class="mat-toolbar-dialog">
+
+  <mat-toolbar-row class="mat-toolbar-row" fxlayout="row" fxlayoutalign="space-between center" style="flex-direction: row; box-sizing: border-box; display: flex; max-height: 100%; place-content: center space-between; align-items: center;">
+    <span class="title dialog-title">Edit Contact</span>
+    <button aria-label="Close dialog" mat-icon-button (click)="closeDialog()">
+      <span class="mat-button-wrapper">
+        <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">close</mat-icon>
+      </span>
+    </button>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="avatar-toolbar-row" fxlayout="column" fxlayoutalign="center center" style="flex-direction: column; box-sizing: border-box; display: flex; max-width: 100%; place-content: center; align-items: center;">
+    <img class="avatar profile-avatar huge no-margin" src="../../assets/images/1x/baseline_account_circle_black_48dp.png" alt="Abbott">
+    <div class="contact-name mt-8">Abbott Keitch</div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="dialog-demo-content padding no-margin position ">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam maxime cum dolorem officiis assumenda rem alias, omnis
+  nobis nam. Ratione soluta libero architecto cupiditate at fugit consectetur sit dignissimos vitae.
+  <br>
+  <strong>{{data}}</strong>
+</div>

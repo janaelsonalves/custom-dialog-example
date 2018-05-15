@@ -1,0 +1,66 @@
+.mat-toolbar {
+    background: #039be5;
+    color: #fff;
+    flex: 1 0 auto;
+    min-height: initial;
+}
+
+.avatar-toolbar-row{
+    height: auto;
+}
+
+.example-icon {
+    padding: 0 14px;
+}
+  
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.avatar.huge {
+    width: 96px;
+    min-width: 96px;
+    height: 96px;
+    line-height: 96px;
+}
+
+.avatar {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 8px 0 0;
+    border-radius: 50%;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+.profile-avatar img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: none;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+
+element.style {
+}
+.position {
+    position: relative;
+}
+.padding {
+    padding: 24px!important;
+}
+
+.position {
+    overflow: hidden!important;
+    overflow-anchor: none;
+    -ms-overflow-style: none;
+    touch-action: auto;
+    -ms-touch-action: auto;
+}
